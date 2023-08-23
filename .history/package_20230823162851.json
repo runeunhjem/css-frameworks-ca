@@ -3,11 +3,7 @@
   "version": "0.0.1",
   "description": "A starting point for the CSS Frameworks CA project",
   "scripts": {
-    "test": "echo \"We will learn more about testing in the Workflow course\" && exit 1",
-    "build": "sass src/scss:dist/css",
-    "start": "live-server",
-    "sass": "sass --watch scss:css",
-    "watch": "sass --watch src/scss:dist/css & live-server"
+    "test": "echo \"We will learn more about testing in the Workflow course\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -33,5 +29,9 @@
   "devDependencies": {
     "live-server": "^1.1.0",
     "sass": "^1.66.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    
   }
 }
