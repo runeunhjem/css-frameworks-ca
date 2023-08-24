@@ -1,0 +1,9 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+.header-logo {
+  // background-image: url(../../img/logo.svg);
+  background-size: cover;
+  height: 100%;
+  width: 100vw;
+}
