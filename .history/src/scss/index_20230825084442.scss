@@ -1,0 +1,28 @@
+@import "../../node_modules/bootstrap/scss/functions";
+// @import "../../node_modules/bootstrap/scss/variables";
+@import "variables";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.header-logo {
+  background-image: url("../../img/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100px;
+}
+
+.max-width-800 {
+  max-width: 800px;
+}
+.max-width-300 {
+  max-width: 300px;
+}
+
+.navbar {
+  background-color: #ff3c3c;
+}
