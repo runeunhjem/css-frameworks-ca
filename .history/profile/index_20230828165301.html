@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../dist/css/index.css">
+  <script src="../js/bootstrap.bundle.min.js" type="module"></script>
+  <!-- <script src="js/main.js"></script> -->
+  <title>movieTALK | Home</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md pt-4 bg-dark align-items-center">
+      <a class="navbar-brand header-logo mb-2" href="../index.html" alt="movieTALK Logo"><span class="visually-hidden">Home</span></a>
+      <div class="container-fluid d-flex align-items-start justify-content-center max-width-800 ">
+        <div class="row  max-width-800 align-items-center">
+          <div class="col-4 justify-content-around col-sm-4 col-md-6 m-1">
+            <button class="btn-outline-warning navbar-toggler bg-warning mb-2 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-primary" id="navbarSupportedContent">
+              <ul class="navbar-nav mb-lg-2">
+                <li class="nav-item me-2">
+                  <a class="nav-link text-warning active rounded-2 ps-2" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item me-2">
+                  <a class="nav-link text-warning rounded-2 ps-2" href="index.html">Profile</a>
+                </li>
+                <li class="nav-item mb-3">
+                  <a class="nav-link text-warning rounded-2 ps-2" href="../feed/index.html">Feed</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          <div class="col-8 col-sm-8 col-md-6 d-flex align-items-start justify-content-end">
+            <form class="d-flex mt-1" role="search">
+              <input class="form-control me-2 max-width-300" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning" type="submit">Search</button>
+            </form>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
+  <h1 class="text-center">Edit your movieTALK profile</span></h1>
+  <main class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <!-- Profile Picture -->
+                <div class="card">
+                    <img src="../img/profile.jpg" class="card-img-top vh-rounded-circle shadow-lg border border-5" alt="Profile Picture">
+                    <div class="card-body">
+                        <h5 class="card-title">Your Profile</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <!-- User Information -->
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">User Information</h5>
+                        <p class="card-text">Username: <span id="username">YourUsername</span></p>
+                        <p class="card-text">Email: <span id="email">youremail@example.com</span></p>
+                        <p class="card-text">Favorite Movie Categories:</p>
+                        <ul class="list-group">
+                            <li class="list-group-item">Action</li>
+                            <li class="list-group-item">Comedy</li>
+                            <li class="list-group-item">Drama</li>
+                            <!-- Add more categories as needed -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer mt-3>
+      <div class="container-fluid bg-dark mt-3">
+        <div class="row">
+          <div class="col">
+            <p class="text-center text-warning mt-2">movieTALK &copy; 2021</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
