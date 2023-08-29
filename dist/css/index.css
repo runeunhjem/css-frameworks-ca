@@ -18545,6 +18545,10 @@ textarea.form-control-lg {
   content: "\f8cc";
 }
 
+html, body {
+  min-height: 100%;
+}
+
 .header-logo {
   background-image: url("../../img/logo-yellow.svg");
   background-size: contain;
