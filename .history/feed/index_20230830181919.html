@@ -45,7 +45,7 @@
     <div class="container justify-content-between">
       <div class="row  justify-content-between">
         <div class="col-12 col-md-3 col-lg-2">
-          <div class="card d-none d-md-block">
+          <div class="card">
 
             <ul class="nav flex-column">
               <li class="nav-item">
@@ -58,19 +58,13 @@
                   <h6 class="mx-0 align-items-center d-flex justify-content-center"><i class="justify-content-start bi-sort-down me-1"></i>Sort Feed</h6>
                   <ul class="nav flex-column ml-3">
                       <li class="nav-item">
-                          <a href="#" class="nav-link text-dark text-decoration-none ms-3 px-1 py-0 rounded-0">By Date</a>
+                          <a href="#" class="nav-link text-dark text-decoration-none ms-3 px-1 py-0">By Date</a>
                       </li>
                       <li class="nav-item">
-                          <a href="#" class="nav-link text-dark text-decoration-none ms-3 px-1 py-0 rounded-0">By Name</a>
+                          <a href="#" class="nav-link text-dark text-decoration-none ms-3 px-1 py-0">By Name</a>
                       </li>
-                      <li class="nav-item p-0 m-0">
-                        <!-- <a href="#" class="nav-link text-dark text-decoration-none ms-3 px-1 py-0 rounded-0">By Category<i class="bi bi-chevron-down ms-1"></i></a> -->
-                        <select class="form-select border-0 ms-3 me-0 p-1" aria-label="Select Category">
-                          <option selected>By Category</option>
-                          <option value="Sci-Fi">Sci-Fi</option>
-                          <option value="Action">Action</option>
-                          <option value="Fantasy">Fantasy</option>
-                        </select>
+                      <li class="nav-item">
+                        <a href="#" class="nav-link text-dark text-decoration-none ms-3 px-1 py-0  fs-6">By Category<i class="bi bi-chevron-down ms-1"></i></a>
                       </li>
                       <hr>
                   </ul>
@@ -96,7 +90,7 @@
               <a href="../profile/index.html" alt="View Profile" class="d-flex align-items-center"><span class="visually-hidden">View Profile</span><img src="../img/profile.jpg" alt="View Profile" class="profile-image rounded-circle"></a>
               <span class="nav-link p-1 rounded"><a href="#" alt="Open Menu" class="text-dark text-decoration-none"><i class="me-1 bi bi-list"></i><span class="icons">Feed</span></span></a>
               <span class="nav-link p-1 rounded"><a href="#" alt="Movie News" class="text-dark text-decoration-none"><i class="me-1 bi bi-lightning"></i><span class="icons">News</span></span></a>
-              <span class="nav-link active text-danger shadow bg-warning p-1 p-1 rounded text-decoration-none"><i class="me-1 bi bi-chat-dots"></i><span class="icons">Create Post</span><i class="ms-1 bi bi-chevron-up"></i></span>
+              <<span class="nav-link active text-danger shadow bg-warning p-1 p-1 rounded text-decoration-none"><i class="me-1 bi bi-chat-dots"></i><span class="icons">Create Post</span><i class="ms-1 bi bi-chevron-up"></i></span>>
               <span class="nav-link p-1 rounded"><a href="../profile/index.html" alt="View Profile" class="text-dark text-decoration-none"><i class="me-1 bi bi-person"></i><span class="icons">Profile</span></a>
             </div>
 
@@ -116,14 +110,6 @@
                       <div class="mb-3">
                           <label for="imdbLink" class="form-label">IMDb Link</label>
                           <input type="url" class="form-control" id="imdbLink" name="imdbLink" required>
-                      </div>
-                      <div class="mb-3">
-                          <select class="form-select" aria-label="Multiple select example">
-                            <option selected>Category</option>
-                            <option value="Sci-Fi">Sci-Fi</option>
-                            <option value="Action">Action</option>
-                            <option value="Fantasy">Fantasy</option>
-                          </select>
                       </div>
                       <div class="mb-3">
                           <label for="postContent" class="form-label">Post Content</label>
