@@ -41,11 +41,11 @@ html, body {
 
 .nav-link {
   &:hover {
-    background-color: #ffc107;
-    color: #e94a4a !important;
+    background-color: $bg-warning;
+    color: $bg-danger;
     border-radius: 8px;
   }
   .active {
-    color: #b84545;
+    color: $bg-danger;
   }
 }

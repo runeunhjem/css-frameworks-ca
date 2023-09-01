@@ -10755,7 +10755,7 @@ html, body {
   border-radius: 8px;
 }
 .nav-link .active {
-  color: #b84545;
+  color: #e94a4a !important;
 }
 
 /*# sourceMappingURL=index.css.map */
